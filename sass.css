@@ -1,1 +1,18 @@
-/* No CSS *//*# sourceMappingURL=sass.css.map */
+.navbar-a {
+  width: 99%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  padding: 9px;
+}
+
+.navbar-a i {
+  font-size: 35px;
+  padding: 8px;
+  background-color: grey;
+}
+/*# sourceMappingURL=sass.css.map */
