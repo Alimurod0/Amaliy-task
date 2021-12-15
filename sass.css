@@ -8,31 +8,61 @@
 .container {
   width: 100%;
   height: 100vh;
-  border: 1px solid red;
   background-image: url(./img/web-developer-at-work-wallpaper-preview.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.container .navbar-s {
-  width: 100%;
-  height: 70px;
-  border: 1px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .navbar-s {
+  width: 98%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.container .navbar-s .navbar-text-s {
+.container .navbar-s i {
+  font-size: 50px;
+  color: black;
+}
+
+.container .text-s {
   width: 50%;
   height: 500px;
-  border: 1px solid black;
+  text-align: center;
+  color: white;
+}
+
+.container .text-s h1 {
+  font-size: 120px;
+  color: white;
+}
+
+.container .text-s h2 {
+  padding-top: 20px;
+}
+
+.container .text-s button {
+  width: 150px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid wheat;
+  color: white;
+  margin-top: 50px;
 }
 /*# sourceMappingURL=sass.css.map */
